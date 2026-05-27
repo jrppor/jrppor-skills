@@ -1,0 +1,11 @@
+{
+  "name": "claude-skills",
+  "skills": [
+    "./skills/advise",
+    "./skills/qa",
+    "./skills/frontend-review",
+    "./skills/backend-review",
+    "./skills/diagram",
+    "./skills/implement"
+  ]
+}

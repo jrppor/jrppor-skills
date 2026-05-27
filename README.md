@@ -1,4 +1,4 @@
-# claude-skills
+# jrppor-skills
 
 A collection of **Agent Skills** for [Claude Code](https://docs.claude.com/en/docs/claude-code) — structured, opinionated workflows for real engineering work. Auto-triggered by Claude based on the task at hand.
 
@@ -15,7 +15,7 @@ Each skill is its own directory under `skills/`, containing a `SKILL.md` with YA
 ### With `npx skills` (Recommended)
 
 ```bash
-npx skills add jrppor/claude-skills
+npx skills add jrppor/jrppor-skills
 ```
 
 ### Alternative — local symlink (for the maintainer's dev loop)

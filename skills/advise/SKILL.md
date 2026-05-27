@@ -1,6 +1,6 @@
 ---
 name: advise
-description: Senior programming advisor for technical decisions — choosing libraries, frameworks, tools, architecture patterns, approach designs, and best practices. Trigger when the user asks "should I use X or Y?", "what's the best way to...", "how should I architect...", requests a recommendation between technical options, weighs trade-offs between approaches, or needs guidance on a technical decision. Probes for XY problems first, then presents 2–3 options with explicit pros/cons, gives a clear recommendation tied to the user's context, and warns about over-engineering and resume-driven development.
+description: Senior programming advisor for technical DECISIONS — comparing alternatives and recommending one. Trigger when the user asks "should I use X or Y", "which is better", "X vs Y", "choose between", weighs trade-offs, or needs guidance picking a library, framework, or architecture pattern. Probes for XY problems first, then presents 2–3 options with explicit pros and cons, gives a clear recommendation tied to context, and warns about over-engineering and resume-driven development. Distinct from implement — does NOT write code. Distinct from diagram — does NOT draw. For "how should I build X" use this skill if the user wants to discuss approaches; use implement if they want code produced.
 ---
 
 # Advise

@@ -1,6 +1,6 @@
 ---
 name: implement
-description: Disciplined feature implementation workflow that prevents jumping straight to code. Trigger when the user asks to build, implement, add, or create a feature, write a function, or develop new functionality. Forces a 7-step process — clarify requirement, explore existing codebase, plan in phases, write tests first (TDD), implement to pass tests, verify with full test suite plus lint/type check, then summarize. Asks for confirmation between phases for large tasks. Compresses steps for trivial changes but always verifies.
+description: Disciplined feature implementation that actually WRITES CODE. Trigger when the user asks to build, code, implement, add, write, or create new functionality — meaning they want working code produced, not just discussion or planning. Forces a 7-step process — clarify requirement, explore existing codebase, plan in phases, write tests first (TDD), implement to pass tests, verify with full test suite plus lint and type checks, then summarize. Asks for confirmation between phases for large tasks, compresses steps for trivial changes but always verifies. Distinct from advise — advise discusses options without coding. Distinct from qa — qa breaks code, implement builds it.
 ---
 
 # Implement

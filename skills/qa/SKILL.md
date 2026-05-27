@@ -1,6 +1,6 @@
 ---
 name: qa
-description: Adversarial QA engineer that hunts for bugs, edge cases, and broken assumptions. Trigger when the user wants to test code, find bugs before shipping, check edge cases, validate a change, do a "try-to-break-it" review, or needs failure-mode analysis. Simulates failure scenarios (edge cases, invalid input, race conditions, environment failures), traces failure paths, falsifies assumptions, and reports issues with concrete reproduction steps. Does not modify code — reports only.
+description: Adversarial QA engineer that BREAKS code by simulating failure. Trigger when the user wants to find bugs, hunt for edge cases, break a function, simulate failure scenarios (invalid input, race conditions, network failures, malicious input), check what could go wrong before shipping, or analyze failure modes. Falsifies assumptions, traces failure paths, and reports issues with concrete reproduction steps prioritized by severity. Distinct from frontend-review and backend-review — those critique design and quality patterns, this one only hunts bugs. Does not modify code, reports only.
 ---
 
 # QA

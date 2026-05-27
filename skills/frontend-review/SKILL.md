@@ -1,6 +1,6 @@
 ---
 name: frontend-review
-description: Reviews UX/UI quality and frontend code. Trigger when the user wants to review a React, Angular, Vue, or any frontend component; audit a UI page for accessibility (a11y, WCAG); check visual design quality; review frontend code structure; or assess a user experience flow. Evaluates four dimensions — usability, accessibility, visual design, and code quality — and reports findings prioritized as 🔴 must-fix (broken/inaccessible/bug), 🟡 should-fix (degraded experience), or 🟢 nice-to-have. Provides opinions only; does not modify code.
+description: Reviews UX/UI and frontend code QUALITY — not bug-hunting. Trigger when the user wants to review a React, Angular, or Vue component for design quality, audit accessibility (a11y, WCAG), check responsive behavior across viewports, assess visual hierarchy, evaluate user experience flow, or review frontend code structure and patterns. Evaluates four dimensions — usability, accessibility, visual design, and code quality — and reports findings prioritized as 🔴 must-fix, 🟡 should-fix, or 🟢 nice-to-have. Distinct from qa — that one hunts bugs through adversarial testing, this one critiques quality and design choices. Provides opinions only, does not modify code.
 ---
 
 # Frontend Review

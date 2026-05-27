@@ -1,6 +1,6 @@
 ---
 name: backend-review
-description: Reviews backend, API, and data layer quality. Trigger when the user wants to review backend code, audit an API endpoint or REST service, check for security vulnerabilities (auth, IDOR, SQL injection, secrets), assess performance (N+1, caching, async), evaluate a data layer (transactions, ORM, race conditions), check reliability patterns (retry, circuit breaker, idempotency), audit observability (logging, tracing, metrics), or assess testability/maintainability. Covers 7 dimensions and reports findings prioritized as 🔴 must-fix (security hole, data loss, outage), 🟡 should-fix, or 🟢 nice-to-have. Provides opinions only; does not modify code.
+description: Reviews backend, API, and data-layer ARCHITECTURE quality — patterns, security, and performance design. Trigger when the user wants to audit an API endpoint design, REST service, or controller; check security patterns (auth, IDOR, injection, secrets, CORS, rate limiting); evaluate performance design (N+1, caching, async, indexing); assess data layer patterns (transactions, ORM, race conditions); review reliability patterns (retry, circuit breaker, idempotency); or check observability setup (logging, tracing, metrics). Covers 7 dimensions and reports findings prioritized as 🔴 must-fix, 🟡 should-fix, or 🟢 nice-to-have. Security issues that expose or modify data are always 🔴. Distinct from qa — that one hunts bugs through adversarial testing, this one critiques design and security patterns. Provides opinions only, does not modify code.
 ---
 
 # Backend Review

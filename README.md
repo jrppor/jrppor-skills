@@ -1,12 +1,12 @@
 # jrppor-skills
 
-A collection of **Agent Skills** for [Claude Code](https://docs.claude.com/en/docs/claude-code) — structured, opinionated workflows for real engineering work. Auto-triggered by Claude based on the task at hand.
+A collection of **Agent Skills** for AI coding agents — Claude Code, Cursor, Codex, Cline, Amp, and 9+ more via [`skills.sh`](https://skills.sh/). Structured, opinionated workflows for real engineering work. Auto-triggered by the agent based on the task at hand.
 
 ---
 
 ## Layout
 
-Each skill is its own directory under `skills/`, containing a `SKILL.md` with YAML frontmatter (`name` and `description`). Claude reads the description and triggers the skill automatically when the task matches.
+Each skill is its own directory under `skills/`, containing a `SKILL.md` with YAML frontmatter (`name` and `description`). The agent reads the description and triggers the skill automatically when the task matches.
 
 ---
 
@@ -18,9 +18,9 @@ Each skill is its own directory under `skills/`, containing a `SKILL.md` with YA
 npx skills add jrppor/jrppor-skills
 ```
 
-### Alternative — local symlink (for the maintainer's dev loop)
+### Alternative — local symlink for Claude Code (maintainer's dev loop)
 
-Clone the repo, then symlink every skill into `~/.claude/skills/`:
+Clone the repo, then symlink every skill into `~/.claude/skills/` (Claude Code only):
 
 ```bash
 ./scripts/install-local.sh

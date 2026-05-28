@@ -40,7 +40,6 @@ List every skill in the repo:
 - **[qa](./skills/qa/SKILL.md)** — Adversarial QA engineer that hunts for bugs, edge cases, and broken assumptions. Simulates failure scenarios (edge cases, invalid input, race conditions, environment failures), traces failure paths, and reports issues with concrete reproduction steps.
 - **[frontend-review](./skills/frontend-review/SKILL.md)** — Reviews UX/UI quality and frontend code across four dimensions: usability, accessibility (WCAG/a11y), visual design, and code quality. Prioritizes findings as must-fix / should-fix / nice-to-have.
 - **[backend-review](./skills/backend-review/SKILL.md)** — Reviews backend, API, and data layer quality across 7 dimensions: API design, security, performance, data layer, reliability, observability, and testability. Treats security issues that expose or modify data as critical, always.
-- **[diagram](./skills/diagram/SKILL.md)** — Architecture expert that draws Mermaid diagrams from input. Auto-selects the right diagram type (architecture, sequence, ER, flowchart, state, etc.), generates valid Mermaid, critiques the architecture (SPOF, tight coupling, missing infrastructure), and supports multiple views for large systems.
 - **[implement](./skills/implement/SKILL.md)** — Disciplined 7-step implementation workflow: clarify requirement, explore existing code, plan, write tests first (TDD), implement, verify, summarize. Prevents jumping straight to code.
 
 ---

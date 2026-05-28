@@ -5,7 +5,6 @@
     "./skills/qa",
     "./skills/frontend-review",
     "./skills/backend-review",
-    "./skills/diagram",
     "./skills/implement"
   ]
 }
